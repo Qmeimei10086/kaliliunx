@@ -1,0 +1,4 @@
+sudo mkdir -p /mnt/tmp
+sudo mount /dev/sdc5 /mnt/tmp
+sudo sh -c "echo '/ union'> /mnt/tmp/persistence.conf"
+umount /dev/sdc5
